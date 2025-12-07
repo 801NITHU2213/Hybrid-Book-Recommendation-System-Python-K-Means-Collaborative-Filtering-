@@ -1,25 +1,60 @@
-Hybrid Book Recommendation System :
+Hybrid Book Recommendation System
 
-A Python-based book recommendation system that combines K-Means clustering and Collaborative Filtering to provide personalized book suggestions. This hybrid approach leverages both user preferences and book features to enhance recommendation accuracy.
+A Python-based book recommendation system that combines K-Means clustering and Collaborative Filtering to provide personalized book suggestions. This hybrid approach leverages both user preferences and book features for accurate recommendations.
 
-Features :
+📂 Repository Structure
+Hybrid-Book-Recommendation-System/
+│
+├── README.md                 # Project documentation
+├── Untitled10.ipynb          # Jupyter/Colab notebook with implementation
+├── books.csv                 # Dataset containing book details
+└── ratings.csv               # Dataset containing user ratings
+
+🔹 Features
 
 User-Based Collaborative Filtering: Suggests books based on similar user preferences.
 
-K-Means Clustering: Groups users with similar reading patterns for more precise recommendations.
+K-Means Clustering: Groups users with similar reading patterns.
 
-Hybrid Recommendation: Combines clustering and collaborative filtering for improved personalization.
+Hybrid Recommendation: Combines clustering and collaborative filtering for better personalization.
 
 Interactive: Users can input their favorite books and get tailored suggestions.
 
 Scalable: Works efficiently with large datasets of books and user ratings.
 
-HOW IT WORKS? 
+🛠 Installation
 
-Data Preprocessing: Cleans and structures the dataset.
+Clone the repository:
 
-Clustering Users: Applies K-Means clustering to group users with similar tastes.
+git clone https://github.com/801NITHU2213/Hybrid-Book-Recommendation-System-Python-K-Means-Collaborative-Filtering.git
 
-Collaborative Filtering: Computes recommendations based on user similarity within clusters.
 
-Hybrid Recommendation: Combines the strengths of clustering and collaborative filtering to suggest books.
+Navigate to the project directory:
+
+cd Hybrid-Book-Recommendation-System-Python-K-Means-Collaborative-Filtering
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Dependencies include:
+
+pandas
+
+numpy
+
+scikit-learn
+
+matplotlib
+
+⚡ Usage
+
+Open the notebook Untitled10.ipynb in Jupyter Notebook or Google Colab.
+
+Ensure books.csv and ratings.csv are in the same directory.
+
+Run the notebook cells step by step.
+
+Input your favorite books to get personalized recommendations.
