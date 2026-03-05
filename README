@@ -1,8 +1,8 @@
-Hybrid Book Recommendation System
+## Hybrid Book Recommendation System
 
 A Python-based book recommendation system that combines K-Means clustering and Collaborative Filtering to provide personalized book suggestions. This hybrid approach leverages both user preferences and book features for accurate recommendations.
 
-📂 Repository Structure
+## 📂 Repository Structure
 Hybrid-Book-Recommendation-System/
 │
 ├── README.md                 # Project documentation
@@ -10,7 +10,7 @@ Hybrid-Book-Recommendation-System/
 ├── books.csv                 # Dataset containing book details
 └── ratings.csv               # Dataset containing user ratings
 
-🔹 Features
+## 🔹 Features
 
 User-Based Collaborative Filtering: Suggests books based on similar user preferences.
 
@@ -22,7 +22,7 @@ Interactive: Users can input their favorite books and get tailored suggestions.
 
 Scalable: Works efficiently with large datasets of books and user ratings.
 
-🛠 Installation
+## 🛠 Installation
 
 Clone the repository:
 
