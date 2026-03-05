@@ -1,4 +1,4 @@
-# Hybrid book recommendation system 🎂
+Hybrid book recommendation system 
 
 A Python-based book recommendation system that combines **K-Means clustering** and **Collaborative Filtering** to provide personalized book suggestions.
 
